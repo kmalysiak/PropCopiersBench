@@ -1,9 +1,10 @@
+## Benchamak results summary.<br/>
 Below are the results of Benchmark run on my machine.<br/>
-Among deep copiers - **mapstruct is the fastest**. <br/>
-Among shallow copiers - **jaxson is the fastest**.<br/>
-Benchmark Mode Cnt Score Error Units <br/>
+- among deep copiers - **mapstruct is the fastest**. <br/>
+- among shallow copiers - **jaxson is the fastest**.<br/>
+<br/><br/>
 
-**Deep copiers** <br/>
+**Deep copiers** detailed results from jmh <br/>
 
 | Benchmark | Mode | Cnt | Score   | Error     | Units |
 |-----------|------|-----|---------|-----------|-------|
@@ -11,7 +12,7 @@ Benchmark Mode Cnt Score Error Units <br/>
 | gson      | avgt | 3   | 645,878 | ± 464,097 | us/op |
 
 
-**Shallow copiers** <br/>
+<br/>**Shallow copiers** detailed results from jmh <br/>
 
 | Benchmark                | Mode | Cnt | Score  | Error    | Units |
 |--------------------------|------|-----|--------|----------|-------|
