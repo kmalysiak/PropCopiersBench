@@ -19,8 +19,10 @@ This project is a  benchmark setup for testing performance of different object p
 
 <br/><br/>
 To sum up, from the tested copiers:
-- among deep copiers - **mapstruct is the fastest**. <br/>
-- among shallow copiers - **jaxson is the fastest**.<br/>
 
+- among deep copiers - **jaxson is the fastest**.<br/>
+- among shallow copiers - **mapstruct is the fastest**. <br/>
+
+<br/> Notably, deep jackson copier is having a comparable performance level as shallow BeanUtils.copyProperties copier.
 
 
