@@ -1,5 +1,5 @@
-## Benchmarking common object copiers available in Java.<br/>
-Below are the results of Benchmark run on my machine.<br/>
+## Benchmarking common object copiers available in Java<br/>
+Below are the results of benchmarks run on my machine for .<br/>
 - among deep copiers - **mapstruct is the fastest**. <br/>
 - among shallow copiers - **jaxson is the fastest**.<br/>
 <br/><br/>
